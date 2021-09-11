@@ -1,0 +1,24 @@
+@import '../../global/_colors.scss';
+@import '../../global/exoLevel.scss';
+
+.card {
+  margin-bottom : 20px;
+
+  header {
+    padding : 10px 20px;
+    background-color : $lightMedium;
+  }
+
+  h3 {
+    vertical-align: bottom;
+    margin : 0;
+  }
+  .card-body {
+    height : 150px;
+  }
+
+  .card-footer abbr {
+    margin-left : -4px;
+  }
+}
+

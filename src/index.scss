@@ -1,0 +1,33 @@
+@import './global/flexbox.scss';
+
+* {
+  padding : 0;
+  margin : 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Century Gothic", -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif !important;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.hidden {
+  display : none;
+}
+
+button[type=button]{
+  margin-left : 5px;
+}
+
+abbr {
+  border-bottom : none !important;
+  text-decoration: none !important;
+}

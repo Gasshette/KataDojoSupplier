@@ -1,0 +1,10 @@
+@mixin levelDesign($backgroundColor, $color) {
+    color : $color;
+    background-color : $backgroundColor;
+  }
+
+  @mixin overlayWidth($size) {
+    .strength-overlay {
+        width : $size;
+    }
+}

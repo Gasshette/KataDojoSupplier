@@ -1,0 +1,9 @@
+.data-td {
+    overflow : auto;
+    max-width : 100px; // Since the colspan=5 override this value, it's here just to put a fixed width so the table does not stresh when content is too wide
+}
+
+.preshow {
+    overflow : auto;
+    max-height: 400px;
+}

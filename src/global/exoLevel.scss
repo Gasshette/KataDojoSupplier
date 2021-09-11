@@ -1,0 +1,26 @@
+@import './_colors.scss';
+@import './mixins.scss';
+
+.level-default {
+  @include levelDesign($medium, $clear);
+}
+
+.level-0 {
+    @include levelDesign($green, $lightGreen);
+  }
+
+  .level-1 {
+    @include levelDesign($yellow, $lightYellow);
+  }
+
+  .level-2 {
+    @include levelDesign($orange, $lightOrange);
+  }
+
+  .level-3 {
+    @include levelDesign($red, $lightRed);
+  }
+
+  .level-4 {
+    @include levelDesign($dark, $medium);
+  }

@@ -1,0 +1,40 @@
+@import '../../global/colors.scss';
+@import '../../global/mixins.scss';
+
+.strength-bar-component {
+    height : 5px;
+    background: linear-gradient(
+            left,
+            $green 10%,
+            $yellow 30%,
+            $orange 50%,
+            $red 70%,
+            $dark 90%);
+
+    .strength-overlay {
+        height : 100%;
+        background-color : $lightMedium;
+        float : right;
+    }
+}
+
+
+.level-0 {
+    @include overlayWidth(90%);
+}
+
+.level-1 {
+    @include overlayWidth(70%);
+}
+
+.level-2 {
+    @include overlayWidth(50%);
+}
+
+.level-3 {
+    @include overlayWidth(30%);
+}
+
+.level-4 {
+    @include overlayWidth(0%);
+}

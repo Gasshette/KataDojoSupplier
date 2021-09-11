@@ -1,0 +1,52 @@
+[
+   {
+      "creatorSessionName":"qgrisel",
+      "difficultyLevel":1,
+      "name":"Triforce",
+      "description":"Build a console app that should print the legendary Triforce.",
+      "data":"",
+      "creationDate":"2019-02-21T15:56:23.063",
+      "lastEditionDate":null,
+      "id":1
+   },
+   {
+      "creatorSessionName":"qgrisel",
+      "difficultyLevel":2,
+      "name":"Lame Duck",
+      "description":"Build a console app that must determine the path in the 3D array to giving the best final score (From the top left corner to the bottom right corner)",
+      "data":"[[8, 28, 6], [12, 10, 10], [1, 42, 5]]",
+      "creationDate":"2019-02-21T16:05:09.817",
+      "lastEditionDate":null,
+      "id":2
+   },
+   {
+      "creatorSessionName":"qgrisel",
+      "difficultyLevel":3,
+      "name":"Hard Exercice",
+      "description":"It's Hard, Have  fun.",
+      "data":"",
+      "creationDate":"2019-02-22T15:21:56.597",
+      "lastEditionDate":null,
+      "id":3
+   },
+   {
+      "creatorSessionName":"qgrisel",
+      "difficultyLevel":0,
+      "name":"Easy Exercice",
+      "description":"You can do it easily, even my dumb dog did it, i swear !",
+      "data":"",
+      "creationDate":"2019-02-26T08:56:34.377",
+      "lastEditionDate":null,
+      "id":4
+   },
+   {
+      "creatorSessionName":"qgrisel",
+      "difficultyLevel":4,
+      "name":"Harder, better, stronger",
+      "description":"That's really hard !",
+      "data":"",
+      "creationDate":"2019-02-27T14:26:17.17",
+      "lastEditionDate":null,
+      "id":19
+   }
+]

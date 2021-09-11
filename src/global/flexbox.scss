@@ -1,0 +1,20 @@
+.flex-container{
+    display : flex;
+  }
+
+  .space-between{
+    justify-content: space-between;
+  }
+
+  .margin-vertical-auto {
+    margin-top : auto;
+    margin-bottom : auto;
+  }
+
+  .align-center {
+    align-items: center;
+  }
+
+  .no-shrink {
+    flex-shrink: 0;
+  }

@@ -1,0 +1,12 @@
+@import '../../global/colors.scss';
+
+.filter-bar-component{
+    width : 100%;
+    min-height : 60px;
+    padding : 15px;
+    margin-bottom : 20px;
+    color : $dark-text;
+    line-height: 1.9em;
+    border-radius: .25em;
+    background-color: $lightMedium;
+}
